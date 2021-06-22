@@ -1,0 +1,133 @@
+ToDos project
+
+HTML
+———
+link both css and app.js
+body
+wrap it up in the main class <main>
+div class container
+      div class todo
+               1. div class todo__header
+                                <h1 class todo__Title
+                                  <label for =“todinput
+                                       <input class = “todo__input”  type=“input” placeholder =“enter a toDos
+                 2.div class todo__body
+                      <ul class =“todo__list>
+                              <li class =“todo__itemt>fdfgh<li/>
+
+
+
+
+css
+—————
+
+*{ margin-0
+padding-0
+box-sizing :borderbox
+
+body{
+font faimly :aeeial
+
+container{
+max-width:960 px
+margin :0auto
+
+.todo{
+margin top =2rem
+padding: 2 rem 4 rem
+border-radius:4px
+background:color
+width-90%
+min width:480px
+height :760px
+color white
+overflow:scrooll
+
+
+———style header—————
+
+
+.todo__header{
+padding:1rem 0;
+
+.todo__title{
+margin:1 rem
+text align:centre
+
+.to do__input
+width:100%
+border-radius:4px;
+padding :1rem 1.2 rem
+outline:none
+border:none
+fontsize -1rem
+——————style body———————
+
+
+.todo__item{
+list style type -none
+padding: 1rem 1.2 rem;
+border-bottom:2px solid solid
+
+-hover different style—
+.todo__item :hover{
+cursor:default
+
+
+.done{
+text- decoration :line-through(cross it out)
+color : dark gray;
+
+border bottom : 2px solid light yellow.
+
+———————app.js————————
+
+
+.create variable
+—todoinputel
+—todolist el
+—todoitemels
+
+check with console.log
+logic — when we press(entre key) any or create any item item in the list it has to added in the list
+
+create a function addListItem(){
+todoinputEl.addEvent Listener(“keypress”, function(event){
+if (event.keycode ===13){
+let newListItem = createListItem(todoinputEl.value.)
+console.log(todoInputEl .value);
+todoinputEl.appendChild (newListItem)
+todoInputEl.value=“”;
+
+
+
+
+}
+}
+
+addlistitem()
+——Disclaimer — check every function if it si working or not
+console.log (event.keycode)
+Entre key code - 13
+f (event.keycode ===13){ wring this check console .log (“hello you pressed the keys)
+
+———how to create a new li item  in html ny typing new text in the input box——
+
+fuction createListItem( text){
+const newListElement = document.create Element(“li”)
+newListElement.textContent =text;
+newListElement.setAttribute(“class”, “todo__item)
+
+return newListElement;
+}
+console.log(createListItem(“do thedishes”)
+
+
+
+
+“
+
+
+
+
+

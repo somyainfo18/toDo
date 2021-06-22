@@ -37,7 +37,7 @@ body {
   border: 0;
 }
 .todo__item {
-  list-style-type: none;
+  list-style-type:none;
   padding: 1rem 1.2rem;
   border-bottom: 2px solid #D49A3F;
   transition: 0.3s all ease;
